@@ -97,3 +97,8 @@ a %= 4;
 console.log(a);
 b **= 4;
 console.log(b);
+
+// Comparison operator
+
+console.log(a===b);
+console.log(a !== b);

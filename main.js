@@ -76,3 +76,24 @@ const profile ={
 }
 console.log(profile);
 console.log(typeof(profile));
+
+
+// Operators in JS
+a=10;
+b=20;
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+
+// assingment operator
+a += 4;
+console.log(a);
+a -= 4;
+console.log(a);
+a *= 4;
+console.log(a);
+a %= 4;
+console.log(a);
+b **= 4;
+console.log(b);

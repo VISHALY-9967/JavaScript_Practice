@@ -113,5 +113,12 @@ if(mode ==="dark"){
 if(mode === "light"){
   color = "white";
 }
-
+// use of for loop to print even number between 0 to 100
 console.log(color);
+let count =0;
+for (let i = 0; i <=100 ; i++) {
+  if(i % 2 == 0){
+    console.log("values=", i);
+    count++;
+}}
+console.log("count=", count);

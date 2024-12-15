@@ -176,3 +176,23 @@ console.log("Multiplication of 5 and 10 is", Multiplication(5,10));
 const multiply = (num1, num2) => num1 * num2;
 console.log("Multiplication of 8 and 10 using Arrow function is", multiply(8,10));
 
+// Function to return vowels from a string
+// let vowel = ["a","e","i","o","u"];
+function coutVowels(str){
+  let count = 0;
+for(const char of str) {
+  if (char === "a" || char === "e"  || char === "i" || char === "o" || char === "u"){
+    count++;
+}
+}
+console.log(count);
+};
+coutVowels("Vishal");
+
+//arr.forEach method is a callback function
+let arr = [1,2,3 ,4,5,6,7,8,9,10];
+arr.forEach(function(val){
+  console.log(val);
+});
+// In arrow format
+arr.forEach((val)=> {console.log(val)});

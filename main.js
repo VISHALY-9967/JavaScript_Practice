@@ -141,3 +141,12 @@ for (let val of marks) {
 }
 
 console.log("Average marks are", sum/marks.length);
+
+// Array method
+let company = ["Bloomberg", "Microsoft","Uber","Google","IBM","Netflix"];
+console.log("Company namw is", company);
+console.log("Delete First company is", company.shift());
+console.log("Company namw is", company);
+console.log("Remove Uber and add Ola", company.splice(1,1,"Ola"));
+console.log("Company namw is", company);
+console.log("Company namw is", company.push("Amazon"));

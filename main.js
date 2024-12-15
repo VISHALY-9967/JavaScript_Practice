@@ -196,3 +196,9 @@ arr.forEach(function(val){
 });
 // In arrow format
 arr.forEach((val)=> {console.log(val)});
+
+// Square of value in array using forEach
+let square = [2,3,4,5,6];
+square.forEach((val) =>{
+  console.log(val * val);
+});

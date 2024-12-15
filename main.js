@@ -125,12 +125,12 @@ console.log("count=", count);
 
 // Any random game number
 
-let output= 58;
-let usernum = prompt("Guess the game number")
-while(usernum != output){
- usernum = prompt("you entered wrong game number")
-}
-console.log("correct game number");
+// let output= 58;
+// let usernum = prompt("Guess the game number")
+// while(usernum != output){
+//  usernum = prompt("you entered wrong game number")
+// }
+// console.log("correct game number");
 
 
 // Avg marks using array
@@ -148,5 +148,31 @@ console.log("Company namw is", company);
 console.log("Delete First company is", company.shift());
 console.log("Company namw is", company);
 console.log("Remove Uber and add Ola", company.splice(1,1,"Ola"));
-console.log("Company namw is", company);
-console.log("Company namw is", company.push("Amazon"));
+console.log("Company name is", company);
+console.log("Company name is", company.push("Amazon"));
+
+// Functions in JS
+// Parametarized function
+function userName(name){
+  console.log("Hello", name);
+}
+userName("Vishal");
+
+// function to calculate sum of two number
+function Sum(num1, num2){
+  return num1 + num2;
+}
+console.log("Sum of 5 and 10 is", Sum(5,10));
+console.log("Sum of 6 and 10 is", Sum(6,10));
+console.log("Sum of 7 and 10 is", Sum(7,10));
+
+// Multiplication Function
+function Multiplication(num1, num2){
+  return num1 * num2;
+}
+console.log("Multiplication of 5 and 10 is", Multiplication(5,10));
+
+// Arrow Functions (Modern JS)
+const multiply = (num1, num2) => num1 * num2;
+console.log("Multiplication of 8 and 10 using Arrow function is", multiply(8,10));
+

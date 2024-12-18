@@ -202,3 +202,17 @@ let square = [2,3,4,5,6];
 square.forEach((val) =>{
   console.log(val * val);
 });
+
+// Map Function
+let double = [2,3,4,5,6];
+let store = double.map((val) =>{
+  console.log(val * val);
+});
+
+// Filter Function
+let arrs = [1,2,3,4,5,6];
+let evenarr = arrs.filter((val) =>{
+  return val % 2 === 0;
+});
+
+console.log("The even number in array are-", evenarr);

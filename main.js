@@ -203,16 +203,23 @@ square.forEach((val) =>{
   console.log(val * val);
 });
 
-// Map Function
+// Map Callback Function
 let double = [2,3,4,5,6];
 let store = double.map((val) =>{
   console.log(val * val);
 });
 
-// Filter Function
+// Filter Callback Function
 let arrs = [1,2,3,4,5,6];
 let evenarr = arrs.filter((val) =>{
   return val % 2 === 0;
 });
 
 console.log("The even number in array are-", evenarr);
+
+// Reduce Callback Function
+let arr1 = [1,2,3,4,5,6];
+let output = arr1.reduce((res,curr)=>{
+  return res + curr;
+});
+console.log("The output is ",output);
